@@ -1,0 +1,184 @@
+/* MAIN CSS */
+
+body {
+   background-color: #191919;
+   font-family: 'Times New Roman', serif;
+   font-size: 1em;
+   color: white;
+   line-height: 1.3em;
+}
+
+h1 img{
+   vertical-align: middle;
+   width: 40%;
+   max-width: 100px;
+}
+
+#container {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   max-width: 1200px;
+}
+
+#nav {
+   list-style-type: none;
+   margin: 0px auto;
+   padding: 0;
+   width: 100%;
+   display: block;
+}
+
+#logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   max-width: 300px;
+}
+
+#nav a h2 {
+   margin-bottom: 0px;
+}
+
+#nav a p{
+   font-size: 0.9em;
+   font-style: italic;
+   font-weight: bold;
+   margin-top: 0px;
+   line-height: 1.25em;  
+}
+
+#nav a p {
+   color: white;
+   text-decoration: none;
+}
+
+#nav li {  
+   display: inline-block;
+   width: 23.5%;
+   margin: 0 0.5%;
+   vertical-align: baseline;
+}
+
+#nav li a {
+   padding-top: 30px;
+   padding-left: 10px;
+   display: block;
+   height: 150px;
+   background-color: #333;
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -o-border-radius: 8px;
+   text-decoration: none;
+}
+
+#nav li a:hover {
+   background-color: #3b732a;
+}
+
+#content {
+   margin: 1%;
+   float: left;
+   width: 60%;
+   display: inline-block;
+}
+
+#sidebar {
+   float: right;
+   display: inline-block;
+   margin: 1%;
+   padding-left: 1%;
+   padding-right: 0;
+   width:33%;
+}
+
+#copyright {
+   border-top: 2px dotted #333;
+   display: block;
+   clear: both;
+   font-size: 0.8em;
+   margin: 1%;
+   
+}
+
+.bold {
+   font-weight: bold;
+}
+
+/* CSS FOR TABLETS AND SCREENS WITH A MAX SIZE OF 750 PX */
+
+@media screen and (max-device-width: 750px), screen and (max-width: 750px) {
+   #nav li {
+   	display: inline-block;
+	width: 47%;
+	margin: 0 1%;
+	vertical-align: baseline;
+	margin-bottom: 0;
+   }
+   
+   #nav li a {
+	   padding-top: 0px;
+	   padding-left: 10px;
+	   display: block;
+	   height: 90px;
+	   background-color: #333;
+	   border-radius: 8px;
+	   -moz-border-radius: 8px;
+	   -webkit-border-radius: 8px;
+	   -o-border-radius: 8px;
+	   text-decoration: none;
+	}
+}
+
+/* CSS FOR MOBILE DEVICES AND SCREENS WITH A MAX SIZE OF 480 PX */
+
+@media screen and (max-device-width: 480px), screen and (max-width: 480px) {   
+   #nav {
+	   list-style-type: none;
+	   margin: 0px auto;
+	   padding: 0;
+	   width: 100%;
+	   display: block;
+	}
+
+   #nav li {
+   	display: inline-block;
+	width: 47%;
+	margin: 0 1%;
+	vertical-align: baseline;
+	padding: 0px;
+   }
+   
+   #nav li a {
+	   padding: 0px;
+	   margin: 0;
+	   display: block;
+	   height: 100%;	   
+	   background-color: transparent;	 
+	}
+	
+	#nav li a p {
+	   display: none;
+	}
+	
+	#nav li a:hover {
+	   background-color: transparent;
+	}
+	
+	#container {
+	   margin-left: auto;
+	   margin-right: auto;
+	   width: auto;
+	   max-width: 1200px;
+	}
+	
+	#sidebar {
+	   display: none;
+	}
+	
+	#content {
+	   width: 100%;
+	}
+}

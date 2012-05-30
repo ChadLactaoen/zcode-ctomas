@@ -1,0 +1,115 @@
+/** CSS Stylesheet for To-Do List
+*   Intended for Zappos.Code();
+*	Author: Chad Tomas
+*	Version: May 28, 2012
+*/
+
+body {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	background: #b9090b;
+	color: black;
+}
+
+a:link, a:visited {
+	color: #b9090b;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* CONTENT DIVS */
+
+#container {
+	width: 950px;
+	margin: 10px auto;
+}
+
+#logo {
+	float: left;
+}
+
+#main {
+	clear: both;
+	background-color: #fff;
+	min-height: 400px;
+	overflow: auto;
+}
+
+#content {
+	display: inline-block;
+	float: left;
+	width: 63%;
+	margin: 0 2%;
+}
+
+#sidebar {
+	display: inline-block;
+	float: right;
+	width: 31%;
+	margin: 0 1%;
+}
+
+#copyright {
+	clear: both;
+	color: #fff;
+	font-size: 0.6em;
+	text-align: center;
+}
+
+#main p {
+	font-size: 0.8em;
+}
+
+#error {
+	margin: 10px 0;
+	border: 1px solid #b9090b;
+	width: 100%;
+	padding: 5px;
+	color: #b9090b;
+	background-color: #dc6969;
+}
+
+#sidebar a {
+	text-decoration: none;
+	color: black;
+}
+
+/* STYLES FOR TASKS IN LIST */
+
+.task {
+	border-bottom: 1px solid #b9090b;
+	margin-bottom: 5px;
+}
+
+.task:hover {
+	background-color: #dc6969;
+}
+
+.task-desc {
+	font-weight: bold;
+}
+
+/* BUTTONS*/
+
+.button {
+	font-weight: bold;
+	background: #777;
+	padding: 5px;
+	margin: 5px 0;
+	font-size: 110%;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #999;
+}
+
+.form {
+	display: block;
+	clear: both;
+}
+
+
