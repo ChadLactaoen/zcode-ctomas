@@ -1,0 +1,39 @@
+This repository contains all answers for the Zappos.Code() application by Chad Tomas.
+
+Contents of each folder is descibed below:
+
+dragons/
+- Includes a short write up detailing my design process of building a zoo that houses at least two dragons.
+  Includes a .pdf version as well as a .txt version
+
+ninjas/
+- A program written in Java that sorts ninja-related books in alphabetical order and prints them to the console
+  as if on bookshelf. Source code can be found in the src/ folder
+
+other/
+- Contains a hypothetical business proposal for Zappos I did for my Business Communications class. The research I
+  did for this paper is what originally started my interest in working for Zappos, and is included as a shameless
+  plug to my paper. And if Zappos reads it and actually likes the proposal, then that's cool =)
+
+sudoku/
+- A program written in Java that generates a random and valid sudoku puzzle. Source code can be found in the src/
+  folder
+
+todo-list/
+- Contains all files needed for a site that you can create to do lists and add/delete/edit tasks. Technologies used:
+  HTML, CSS, jQuery, and PHP with a MySQL back-end. Live version can be found at:
+  
+  http://oipsl.freesuperhost.com/todo
+
+zappos/
+- Contains a short write up about what excites me about Zappos and Zappos.Code()
+
+zombies/
+- Contains all files needed for a site about zombie surivival using Responsive Web Design concepts. Technologies used:
+  HTML, CSS media queries, a hint of PHP, a dose of quirkiness. Live version can be found at:
+
+  http://oipsl.freesuperhost.com/zombies
+
+
+All work presented in this repo, unless otherwise noted, is the work of Chad Tomas.
+
